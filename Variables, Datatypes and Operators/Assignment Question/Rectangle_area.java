@@ -1,8 +1,10 @@
 import java.util.Scanner;
+// This code examples shows the use of Scanner class
+// As we are not using public access modifiers with class , all class files will show in files section
 class Rectangle_area {
 
 	public static void main(String[] args) {
-		int length ; 
+		int length ; // Integer datatype  is declared 
 		int breadth ;
 		System.out.println("Enter the length ");
 		Scanner input = new Scanner(System.in);
@@ -33,3 +35,4 @@ class Square_area {
 		
 	
 }
+
