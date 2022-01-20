@@ -1,5 +1,5 @@
 
-public class Const_demo {
+public class Consturctor_demo {
 	String name;
 	int roll_no; 
 	int r;
@@ -8,7 +8,7 @@ public class Const_demo {
 		this.roll_no=roll_no;
 }
 	public static void main(String[] args) {
-		Const_demo obj1=new Const_demo("Siddhant", 03);
+		Const_demo obj1=new Const_demo("Siddhant", 03); // Values as been initialized with help of constucutor 
 		System.out.println("Constructor as initialized the value"+  ": "+ obj1.name +" "+ obj1.roll_no);
         int [][] x =new int [2][3];
         System.out.println(x);
