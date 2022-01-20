@@ -1,5 +1,5 @@
 
-public class cont_demo {
+public class do_while_loop {
 	public static void main(String[] args) {
 		int x=0;
 		do
