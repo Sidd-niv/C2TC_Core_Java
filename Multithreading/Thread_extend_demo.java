@@ -15,7 +15,7 @@ class demo_Thread extends Thread{
 		}
 	}
 }
-public class Thre_demo_ext {
+public class Thread_extend_demo {
 
 	public static void main(String[] args) {
 		demo_Thread obj = new demo_Thread();
