@@ -16,7 +16,7 @@ class Demo_thread_1 extends A implements Runnable{
 
 
 
-public class Demo_Inter_multithread  {
+public class Demo_Interface_multithread  {
 
 	public static void main(String[] args) {
 		// Instantiate a Thread object with Demo_Thread_()
