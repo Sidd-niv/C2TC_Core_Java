@@ -1,5 +1,5 @@
 package Exception_demo;
-
+// In this code we have demonstrate tthe use of try catch and finally
 public class Try_catch_finally_demo {
 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Try_catch_finally_demo {
 			System.out.println("Exception is handled by catch block: "+e);
 		}finally {
 			System.out.println("Finally block will always run even if exception is handle by catch block \n"+
-		"Note we can also write the handler code in finally block \n"+
+		"Finally block is mostly use to close data resources  \n"+
 					"if  finally is executed then this type of termination is known as normal termination");
 		}
 		
