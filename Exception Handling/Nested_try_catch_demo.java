@@ -1,12 +1,18 @@
 package Exception_demo;
 
-public class Nested_demo1 {
+
+// Note Imp point.
+// Try block exception can be handled by any inner catch block.
+// Inner try block exception should be handle by it inner catch block.
+
+public class Nested_try_catch_demo {
 
 	public static void main(String[] args) {
 		try {
 			int a = 9;
+			int b = a/0;
 			try {
-				int b = a/3;
+				
 				int i[] = new int[5];
 				i[4] = 7;
 				try {
@@ -27,8 +33,7 @@ public class Nested_demo1 {
 			System.out.println("Exception messsage: "+ e);
 		}
 		System.out.println("we can contiune our program");
-		
-		
+				
 
 	}
 
