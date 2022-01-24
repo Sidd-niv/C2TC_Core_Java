@@ -1,7 +1,7 @@
 // In this code we have shown have method overloading is done
 
 // Method overloading is achieved in same class with same method name but with different method signature.
-
+// To implement methodriding we need inheritances 
 
 class Overloading_demo{
 	
