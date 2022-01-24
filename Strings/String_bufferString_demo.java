@@ -1,5 +1,5 @@
-
-public class String_demo {
+// In this code we will see the properties of String and BufferString.
+public class String_bufferString_demo {
 
 	public static void main(String[] args) {
 		
@@ -7,6 +7,7 @@ public class String_demo {
 		String str1 = new String("Siddhant");
 		
 		// String declaration without new keyword
+		// Strings are mutable object i.e we can't modify the object that we have created.
 		String StrName = "Siddhant Nivilkar";
 		
 		System.out.println(str1);
@@ -16,6 +17,7 @@ public class String_demo {
 		String str3 = str1.concat(" Nivilkar");
 		
 		// String declaration and initialization the mutable string object 
+		// StringBuffer are immutable.
 		StringBuffer str2 = new StringBuffer("Hey there ");
 		
 		// With the help of the append method we can
