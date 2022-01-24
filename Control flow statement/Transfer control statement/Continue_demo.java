@@ -13,8 +13,18 @@ class Continue_demo{
       }else{
       System.out.println("iteration is going on");
       }
-
     }
+    
+    // use of countinue inside do while loop
+    int x=0;
+		do
+		{ x++;
+		System.out.println(x);
+		if (++x<5)
+			continue;
+		x++;
+		System.out.println(x);	
+		}while(++x<10);
     
   }
 }
