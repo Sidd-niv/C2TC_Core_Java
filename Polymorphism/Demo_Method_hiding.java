@@ -1,4 +1,4 @@
-// In this code we have shown that how to achieve method in java
+// In this code we have shown that how to achieve method hiding in java
 
 // Method hiding in java  is achieve through static method 
 
