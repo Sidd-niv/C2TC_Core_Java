@@ -1,3 +1,5 @@
+package Multi_THreading;
+
 // In this code we have demostrated the use of Synchrozined keyword.
 // Synchronized is used to prevent data inconsistency. 
 // It prevents deadlock condition.
