@@ -1,13 +1,22 @@
+package datatypes_variable_op;
+
+// In this code we implemented the different types of operator.
 
 public class Operator_demo {
 
 	public static void main(String[] args) {
+		
+		// Declaring the int datatype for operation.
 		int num1 = 14, num2 = 2;
 		int res = num1 + num2;
 		int res1 = num1 - num2;
 		int num3 = 3;
 		int res2 = num2 * num2;
+		
+		// Declaring the float datatype and also with typecasting to convert int to float.
 		float res3 = (float)num1/num3;
+		
+		//Printing the output of opreations on console.
 		System.out.println("===========================================");
 		System.out.println("Result of addition operator: "+res);
 		System.out.println("Result of subtraction operator: "+res1);
@@ -36,9 +45,11 @@ public class Operator_demo {
 		num4--; // i.e.. num4 = num4 - 1
 		System.out.println(" Inc a single value: " +num4);
 		System.out.println("==================Pre Inc and dec=========================");
+		
 		// Pre-increment/decrement and post-increment/decrement
 		int m = 3, n = 5;
 		System.out.println("m: "+m+" ,n: "+n);
+		
 		//pre-inc-drc
 		System.out.println("Before pre-inc operation on m: "+m+" ,n: "+n);
 		m = ++n;
@@ -46,6 +57,8 @@ public class Operator_demo {
 		System.out.println("Before pre-dec operation on m: "+m+" ,n: "+n);
 		m = --n;
 		System.out.println("After pre-dec operation on m: "+m+" ,n: "+n);
+		
+		
 		System.out.println("==================Post Inc and Dec=========================");
 		int a = 4, b = 6;
 		System.out.println("a: "+a+" ,b: "+b);
