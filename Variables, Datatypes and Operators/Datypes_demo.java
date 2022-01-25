@@ -1,3 +1,8 @@
+package datatypes_variable_op;
+
+// In this code we have shown the declaration of variables with different datatypes.
+// All the datatypes this program is of primitive types.
+
 class Datypes_demo{
   
   public static void main(String[] args) {
