@@ -27,7 +27,7 @@ class Thread_Met_1 implements Runnable{
 	}
 }
 
-public class Join_method_demo {
+public class Thread_methods_demo {
 
 	public static void main(String[] args) {
 		System.out.println("Main is running the task");
@@ -49,7 +49,7 @@ public class Join_method_demo {
 		System.out.println("State of Thread 1: "+obj.getState());
 		
 		System.out.println("Making main thread wait with the help of join method");
-    	try {
+    	        try {
     		// join() method will make main thread to wait until Thread_Met_1 finish his job
 			obj.join(); 
 		} catch (InterruptedException e) {
