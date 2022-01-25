@@ -42,6 +42,8 @@ public class Thread_Pool_demo {
         pool.execute(obj2);
         pool.execute(obj3);
         pool.execute(obj4);
+        
+        pool.shutdown(); // To stop the Thread pool threads. 
 
 	}
 
