@@ -32,6 +32,10 @@ public class For_loop {
 		//      System.out.println("Infinite for loop"); 
 	        //    }
 		
+		for(System.out.println("Hello"); i<3; System.out.println("Hello")){
+			i++;
+		}
+		
 	}
 
 }
