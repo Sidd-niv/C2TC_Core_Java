@@ -5,25 +5,30 @@ class Switch_case_demo{
     int x = num
     // Switch accepts only byte, int, short and char datatypes.
     Switch(x){
-      // case accepts same datatypes as switch does and we can also pass math expression
+      // case accepts only constant values and also  math expression which result in constant value
+      // case 
       case 1:
-        // code
-      break;
+        System.out.println("Case 1");
+        break;
       
       case 2+3:
-         // code
-      break;
+         System.out.println("Case 2+3");
+         break;
       
       case x:
-        //code
-      break;
+         System.out.println("Case x");
+         break;
       
       case 'A':
-        //code
-      break;
+         System.out.println("Case A"); // This char data type will be converted into unicode value which is constant value 
+         break;
       
       default:
       // It is optional 
+      // If any case is not executed in that case this will execute
+         System.out.println("Default case");
+         break;
+      
     }
     
     //Note:  Without break statement switch case will go under fall through condition
@@ -31,6 +36,17 @@ class Switch_case_demo{
     Switch(x){
     // Empty switch.
     }
+    
+    // Fall through error
+    Switch(x){
+      case 1:
+        System.out.println("Case 1");
+
+      case 2:
+         System.out.println("Case 2");
+    
+    }
+    
   }
 
 }
