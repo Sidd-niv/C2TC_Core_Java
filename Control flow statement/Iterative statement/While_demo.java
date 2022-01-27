@@ -1,3 +1,6 @@
+package loops_pack;
+
+
 class While_demo{
   public static void main(String[] args){
     // Declaring variable
@@ -11,7 +14,15 @@ class While_demo{
     // Infinte loop
     //while(true){
          //code 
-    // }
+    // } this will cause unreachable code which is compile time error
+    
+    final int num1=10;
+    int num2=20
+    // infinite loop due to constant value in while loop
+    // while(num1<num2){
+    //      code;
+    //  }
+    
   
   }
     
