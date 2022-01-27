@@ -1,3 +1,4 @@
+// In this code we will how to create 3D array and how to access its elements
 class Array_3D {
 
     public static void main(String[] args){
