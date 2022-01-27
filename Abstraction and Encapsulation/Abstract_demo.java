@@ -42,10 +42,14 @@ class Abstract_demo{
   public static void main(String args[])
   {
     // Creating the object of Implement_demo class 
-    Implement_demo obj = new Implement_demo();
+    Implement_demo obj2 = new Implement_demo();
     
     // Accessing the methods of implemented methods
     obj.m1();
     obj.m2();
+    
+    // We can use the reference of abstract class to create objects of other class.
+     Abstract_demo_class obj2 = new Implement_demo();
+    
   }
 }
