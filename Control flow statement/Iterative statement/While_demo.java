@@ -1,5 +1,6 @@
 package loops_pack;
 
+// In this code we will see how to use while loop.
 
 class While_demo{
   public static void main(String[] args){
