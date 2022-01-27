@@ -20,7 +20,7 @@ public class String_bufferString_demo {
 		// StringBuffer are immutable.
 		StringBuffer str2 = new StringBuffer("Hey there ");
 		
-		// With the help of the append method we can
+		// With the help of the append method we can add strings to stringBuffer objects.
 		str2.append("Buddy");
 		System.out.println(str3+"\n"+StrName);
 		
