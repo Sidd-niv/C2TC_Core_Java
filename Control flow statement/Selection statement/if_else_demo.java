@@ -4,13 +4,19 @@ class if_else_demo{
   
     // Simple if else statement
     int num = 1548;
+      
     // Curly braces are not mandatory for one statement except for decalarative statement
+    // Error due to declarative 
+    // if(true)int x = 100;
+      
     // Result of logical statement which is pass after if must be boolean type.
     if(num%2==0) 
       System.out.println("Even number");
     else
       System.out.println("Even number");
     // else is not mandatory 
+      
+    
     
     // else if
     if(num == 345)
