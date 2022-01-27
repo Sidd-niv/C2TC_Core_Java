@@ -1,4 +1,8 @@
+package loops_pack;
+
+
 // For each loop is used to retrive the from iterative objects. e.g Array
+
 class For_each_demo{
   
   public static void main(String[] args){
