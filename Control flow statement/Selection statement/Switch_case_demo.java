@@ -1,3 +1,7 @@
+package loops_pack;
+
+// In this code we will see how to use switch cases.
+
 class Switch_case_demo{
   
   public static void main(String[] args){
