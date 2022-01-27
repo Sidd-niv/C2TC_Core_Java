@@ -24,7 +24,6 @@ public class String_bufferString_demo {
 		str2.append("Buddy");
 		System.out.println(str3+"\n"+StrName);
 		
-		// Result of concatenation of Strings with int values 
 		int num = 3, num2 = 4;
 		byte num3 = 23;
 		String new_str = str3 + num +num2 + num3 ;
