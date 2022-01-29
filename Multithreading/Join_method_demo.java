@@ -49,7 +49,7 @@ public class Join_method_demo {
 		System.out.println("State of Thread 1: "+obj.getState());
 		
 		System.out.println("Making main thread wait with the help of join method");
-    	try {
+    	        try {
     		// join() method will make main thread to wait until Thread_Met_1 finish his job
 			obj.join(); 
 		} catch (InterruptedException e) {
@@ -57,7 +57,7 @@ public class Join_method_demo {
 			e.printStackTrace();
 		}
     	
-    	System.out.println("State of Thread 1: "+obj.getState());
+    	        System.out.println("State of Thread 1: "+obj.getState());
 		System.out.println("Main is running the task");
 
 	}
