@@ -1,5 +1,5 @@
 /*
- * The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main ìrootî interfaces of Java collection classes.
+ * The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main ‚Äúroot‚Äù interfaces of Java collection classes.
  * In those interface various methods are declared 
  * These methods are implemented by various collections classes e.g.. ArrayList, vector, LinkedList, Stack etc.
  * In this code we will see ArrayList which implements List interface. 
@@ -40,22 +40,22 @@ public class ArrayIist_demo {
 		arr_list1.add(34.56f);
 		
 		// Print the List.
-	    System.out.println(arr_list1+"\n");
+	        System.out.println(arr_list1+"\n");
 	    
-	    // Collection of different Wrapper objects 
-	    for(int i=0; i<arr_list1.size(); i++) {
-	    	if(arr_list1.get(i) == null) {
-	    		System.out.println("null object");
-	    	}else {System.out.println(arr_list1.get(i).getClass());}
-	    }
-	    System.out.println("\n");
+	         // Collection of different Wrapper objects 
+	         for(int i=0; i<arr_list1.size(); i++) {
+	    	    if(arr_list1.get(i) == null) {
+	    		  System.out.println("null object");
+	    	    }else {System.out.println(arr_list1.get(i).getClass());}
+	         }
+	         System.out.println("\n");
 		
 		
-		//Add items to ArrayList i.e.. arr_list2 with .add() method
-	    arr_Int_list.add(487);
-	    arr_Int_list.add(23);
-	    arr_Int_list.add(null);
-	    arr_Int_list.add(23);
+                //Add items to ArrayList i.e.. arr_list2 with .add() method
+	        arr_Int_list.add(487);
+	        arr_Int_list.add(23);
+	        arr_Int_list.add(null);
+	        arr_Int_list.add(23);
 		
 		// Print the List.
 		System.out.println(arr_Int_list+"\n");
