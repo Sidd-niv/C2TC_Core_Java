@@ -1,5 +1,5 @@
 package com.Array_DS_Pracs;
-// In this code to we create our own array of Marvel movie list
+// In this code we have create our own array of Marvel movie list
 
 // Simple Definition of Marvel list class 
 class Marvel_List{
