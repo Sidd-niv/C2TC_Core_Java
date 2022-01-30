@@ -1,7 +1,9 @@
 // In this code we will see have to create Tnterface and have to implement them in other classes
 
-// In java we use interface to achieve total abstraction
-// With the help of interface we can achieve multiple inheritances
+/*
+* In java we use interface to achieve total abstraction
+* With the help of interface we can achieve multiple inheritances
+*/
 
 // To create a Interface in java we need to declare it with interface keyword
 
