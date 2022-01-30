@@ -36,11 +36,6 @@ class Marvel_List{
 }
 
 
-
-
-
-
-
 public class Marvel_List_Demo {
 
 	public static void main(String[] args) {
