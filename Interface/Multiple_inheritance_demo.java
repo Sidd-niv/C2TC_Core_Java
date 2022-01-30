@@ -1,5 +1,3 @@
-//package Inheritances_pack;
-
 /*
  * In this code we will implement multiple inheritance with interface
  * Java doesn't support multiple inheritance because of ambiguous problem
