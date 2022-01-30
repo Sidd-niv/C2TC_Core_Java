@@ -46,23 +46,22 @@ public class Marvel_List_Demo {
 	public static void main(String[] args) {
 		Marvel_List[] arr_list = new Marvel_List[3];
 		
-		
+		// Initializing the objects.
 		Marvel_List movie1 = new Marvel_List("Captain America: The First Avenger", "July 22, 2011", "Joe Johnston");
 		Marvel_List movie2 = new Marvel_List("Marvel's The Avengers", "May 4, 2012", "	Joss Whedon");
 		Marvel_List movie3 = new Marvel_List("Iron Man 3", "May 3, 2013", "Shane Black");
 		
+		// Inserting objects inside the array
 		arr_list[0] = movie1;
 		arr_list[1] = movie2;
 		arr_list[2] = movie3;
 		
-		Marvel_List.get_movie(arr_list, "Sidd");
+		
 		System.out.println(Marvel_List.get_movie(arr_list, "Sidd"));
+		System.out.println(Marvel_List.get_movie(arr_list, "Marvel's The Avengers"));
 		
 		
 	}
-
-	
-		
-	}
+}
 
 
