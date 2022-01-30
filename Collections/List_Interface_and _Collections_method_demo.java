@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class List_Interface_demo {
+public class List_Interface_Collections_method_demo {
 
 	public static void main(String[] args) {
 		
@@ -40,7 +40,7 @@ public class List_Interface_demo {
 		
 		//.sort() is a static method of collections class which sorts the ArrayList
 		System.out.println("Initial arr_list2: "+arr_list2);
-	    Collections.sort(arr_list2);
+	        Collections.sort(arr_list2);
 		System.out.println("Sorted arr_list2: "+arr_list2);
 		
 		// .binarySearch() method is the static method of Collections class.
