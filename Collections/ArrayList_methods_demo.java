@@ -9,7 +9,7 @@ public class ArrayList_methods_demo {
 
 	public static void main(String[] args) {
 		
-		// Initializing ArrayList
+		// Initializing ArrayList of mix objects with Generics
 		ArrayList<Object> arr_list = new ArrayList<>();
 		
 		// Inserting items with .add() method
