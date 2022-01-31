@@ -3,7 +3,7 @@ package com.Collections_demo_TNS;
  * List interface is the child interface of collection interface.
  * List interface is implemented by ArrayList, vector ,Stack etc.
  * List interface can be used for reference while creating a object of a class.
- * In this code we will use Collections class static methods with the help of List interface.
+ * In this code we will use Collections class static methods.
 **/
 
 
@@ -38,6 +38,7 @@ public class List_Interface_Collections_method_demo {
 		arr_list1.set(3, "Siddhant");
 		System.out.println("final arr_list1: "+arr_list1);
 		
+		
 		//.sort() is a static method of collections class which sorts the ArrayList
 		System.out.println("Initial arr_list2: "+arr_list2);
 	        Collections.sort(arr_list2);
@@ -45,10 +46,12 @@ public class List_Interface_Collections_method_demo {
 		
 		// .binarySearch() method is the static method of Collections class.
 		// This method searches the key using binary search in the specified list. 
-		// This method is only applicable for numeric objects.
-		System.out.println(Collections.binarySearch(arr_list2, 4));
+		// This method is only applicable for homogeneous types of collection.
+		System.out.println(Collections.binarySearch(arr_list4, "Nivilkar"));
+		System.out.println(Collections.binarySearch(arr_list3, 4));
 		
 		// .copy() method of Collections class copy all the objects from one ArrayList to another ArrayList.
+		// Condition to use .copy() is that both collection should be of same size.
 		System.out.println("Initial arr_list3: "+arr_list3);
 		Collections.copy(arr_list3, arr_list2);
 		System.out.println("After copying all object from arr_list1 to arr_list3: "+arr_list3);
