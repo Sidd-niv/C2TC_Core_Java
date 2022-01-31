@@ -52,6 +52,7 @@ public class List_Interface_Collections_method_demo {
 		
 		// .copy() method of Collections class copy all the objects from one ArrayList to another ArrayList.
 		// Condition to use .copy() is that both collection should be of same size.
+                // Symtax: Collections.copy(destination_List, source_List);
 		System.out.println("Initial arr_list3: "+arr_list3);
 		Collections.copy(arr_list3, arr_list2);
 		System.out.println("After copying all object from arr_list1 to arr_list3: "+arr_list3);
